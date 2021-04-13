@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="450.0" styleClass="background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChangeLoginController">
+    <AnchorPane layoutX="35.0" layoutY="28.0" prefHeight="320.0" prefWidth="360.0" styleClass="menu-bar" stylesheets="@style.css" AnchorPane.bottomAnchor="23.0" AnchorPane.leftAnchor="23.0" AnchorPane.rightAnchor="23.0" AnchorPane.topAnchor="23.0">
+        <AnchorPane layoutX="68.0" layoutY="40.0" prefHeight="267.0" prefWidth="251.0" style="-fx-background-color: rgba(255, 250, 250, 0.3);">
+            <TextField fx:id="login" layoutX="4.0" layoutY="83.0" prefHeight="37.0" prefWidth="270.0" style="-fx-background-radius: 10;" styleClass="text-field" stylesheets="@style.css">
+                <effect>
+                    <DropShadow color="#828282ea" height="38.55" radius="9.1375" width="0.0" />
+                </effect>
+                <opaqueInsets>
+                    <Insets />
+                </opaqueInsets>
+            </TextField>
+            <Text fill="#2b2b2b80" layoutX="117.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login" textAlignment="CENTER">
+                <font>
+                    <Font size="14.0" />
+                </font>
+            </Text>
+            <Button layoutX="75.0" layoutY="171.0" mnemonicParsing="false" onAction="#change" prefHeight="37.0" prefWidth="122.0" stylesheets="@style.css" text="Change Login">
+                <font>
+                    <Font name="MT Extra" size="16.0" />
+                </font>
+                <effect>
+                    <DropShadow color="#0000008f" height="12.1" radius="2.525" width="0.0" />
+                </effect>
+            </Button>
+        </AnchorPane>
+    </AnchorPane>
+</AnchorPane>

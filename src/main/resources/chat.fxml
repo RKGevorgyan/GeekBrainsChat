@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox prefHeight="400.0" prefWidth="640.0" stylesheets="style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ChatController">
+    <MenuBar stylesheets="@style.css" VBox.vgrow="NEVER">
+        <Menu mnemonicParsing="false" text="File">
+            <MenuItem mnemonicParsing="false" onAction="#quit" text="Quit" />
+            <MenuItem fx:id="login" mnemonicParsing="false" onAction="#changeLogin" text="Change Login"/>
+        </Menu>
+    </MenuBar>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="607.0" prefWidth="377.0" stylesheets="@style.css" VBox.vgrow="ALWAYS">
+        <VBox prefHeight="434.0" prefWidth="640.0" styleClass="menu-bar" stylesheets="style.css">
+            <TextArea fx:id="output" editable="false" prefHeight="426.0" prefWidth="640.0" styleClass="background" stylesheets="style.css" />
+            <HBox prefHeight="100.0" prefWidth="200.0">
+                <TextField fx:id="input" onAction="#send" prefHeight="54.0" prefWidth="583.0" styleClass="text-field" stylesheets="@style.css" />
+                <Button alignment="CENTER" mnemonicParsing="false" onAction="#send" prefHeight="54.0" prefWidth="204.0" text="SEND" textFill="#1818cd" textOverrun="CENTER_ELLIPSIS" underline="true">
+               <font>
+                  <Font name="Kefa Regular" size="13.0" />
+               </font></Button>
+            </HBox>
+        </VBox>
+    </AnchorPane>
+</VBox>

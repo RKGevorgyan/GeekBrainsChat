@@ -1,0 +1,17 @@
+2021-04-13 10:48:40 INFO  EchoServer:24 - Server started
+2021-04-13 10:48:40 INFO  EchoServer:27 - Server is waiting connection
+2021-04-13 10:49:04 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:49:57 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:50:59 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:51:53 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:52:32 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:56:05 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:57:23 INFO  EchoServer:24 - Server started
+2021-04-13 10:57:23 INFO  EchoServer:27 - Server is waiting connection
+2021-04-13 10:57:46 ERROR ChatController:64 - WARNING: Can't establish connection
+2021-04-13 10:58:47 INFO  EchoServer:30 - Client accepted
+2021-04-13 10:58:47 INFO  EchoServer:39 - Connected user: 1
+2021-04-13 10:58:47 INFO  EchoServer:27 - Server is waiting connection
+2021-04-13 10:59:09 ERROR ClientHandler:46 - Exception while read
+2021-04-13 11:08:05 INFO  EchoServer:26 - Server started
+2021-04-13 11:08:05 INFO  EchoServer:29 - Server is waiting connection
